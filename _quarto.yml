@@ -11,6 +11,7 @@ website:
       - editors.qmd
       - href: https://ishe.org
         text: ISHE website
+        target: blank
 
 format:
   html:
