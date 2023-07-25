@@ -1,0 +1,14 @@
+---
+title: "Papers"
+listing:
+  template: templates/papers.ejs
+  contents: "10.22330"
+  date-format: iso
+  type: default
+  sort: "year"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---

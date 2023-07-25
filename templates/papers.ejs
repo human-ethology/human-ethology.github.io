@@ -1,0 +1,21 @@
+```{=html}
+<ul class="paperlist list">
+<% for (const item of items) { %>
+  <li <%= metadataAttrs(item) %>>
+    <div>
+
+      <h5><a href="<%- item.path %>"><%= item.title %></a></h5>
+
+      <% if (item.categories) { %>
+        <div class="quarto-title"><div class="quarto-categories">
+          <% for (const category of item.categories) { %>
+          <div class="quarto-category"><a href ="papers.html#category=<%- category %>"> <%- category %> </a></div>
+          <% } %>
+        </div></div>
+      <% } %>
+
+    </div>
+  </li>
+<% } %>
+</ul>
+```

@@ -12,6 +12,7 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - papers.qmd
       - editors.qmd
       - href: https://ishe.org
         text: ISHE website
