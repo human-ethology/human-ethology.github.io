@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Human Ethology"
-us  navbar:
+  navbar:
     left:
       - href: index.qmd
         text: Home
