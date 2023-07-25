@@ -12,6 +12,18 @@ website:
       - href: https://ishe.org
         text: ISHE website
         target: blank
+  page-footer:
+    background: primary
+    right:
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/human-ethology/human-ethology.github.io
+      - text: "{{< ai google-scholar size=2x >}}"
+        aria-label: Google Scholar
+        href: https://scholar.google.com/citations?user=WDuoBhEAAAAJ
+      - icon: twitter
+        aria-label: Twitter
+        href: https://twitter.com/ISHE_society
 
 format:
   html:
