@@ -4,7 +4,11 @@ project:
 
 website:
   title: "Human Ethology"
+  image: imgs/he_logo.jpg
+  favicon: imgs/favicon.ico
   navbar:
+    logo: /imgs/he_logo.jpg
+    logo-alt: "Stylized H and E"
     left:
       - href: index.qmd
         text: Home
