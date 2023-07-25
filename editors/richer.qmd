@@ -1,0 +1,6 @@
+---
+title: "John Richer"
+image: /imgs/richer.jpg
+affiliation: "University of Oxford"
+categories: [child behaviour, attachment, autism, ADHD, intersubjectivity, consciousness]
+---

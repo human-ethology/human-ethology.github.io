@@ -1,6 +1,16 @@
 ---
 title: "Editorial Board"
+listing:
+  template: templates/editors.ejs
+  contents: editors
+  date-format: iso
+  type: default
+  sort: "title"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
 ---
 
-Here go the editors!
 

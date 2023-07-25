@@ -1,0 +1,28 @@
+```{=html}
+<ul class="editorlist list">
+<% for (const item of items) { %>
+  <li <%= metadataAttrs(item) %>>
+    <div>
+      <% if (item.image) { %>
+      <img src="<%- item.image %>">
+      <% } %>
+
+      <h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+
+      <p> <%= item.affiliation %> </p>
+
+      <% if (item.categories) { %>
+        <div class="quarto-title"><div class="quarto-categories">
+          <% for (const category of item.categories) { %>
+          <div class="quarto-category"><a href ="editors.html#category=<%- category %>"> <%- category %> </a></div>
+          <% } %>
+        </div></div>
+      <% } %>
+
+
+
+    </div>
+  </li>
+<% } %>
+</ul>
+```

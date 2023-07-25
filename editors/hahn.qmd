@@ -1,0 +1,7 @@
+---
+title: "Amanda C. Hahn"
+image: /imgs/hahn.jpg
+affiliation: "California Polytechnic Institute at Humboldt"
+categories: [baby schema, hormones, parenting, faces, social perception]
+---
+

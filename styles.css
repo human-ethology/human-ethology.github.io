@@ -1,1 +1,19 @@
-/* css styles */
+
+
+.editorlist {
+  list-style-type: none;
+}
+
+.editorlist li {
+  clear: both;
+}
+
+.editorlist img {
+  height: 150px;
+  float: right;
+  margin-bottom: .5em;
+}
+
+.editorlist h3 a {
+  text-decoration: none;
+}
