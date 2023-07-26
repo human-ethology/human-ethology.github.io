@@ -1,0 +1,8 @@
+---
+title: "Ian D. Stephen"
+image: /imgs/stephen.jpg
+affiliation: "Nottingham Trent University"
+links:
+  - href: https://www.ntu.ac.uk/staff-profiles/social-sciences/ian-stephen
+    text: Website
+---

@@ -1,0 +1,10 @@
+---
+title: "Iris J. Holzleitner"
+image: /imgs/holzleitner.jpg
+affiliation: "University of the West of England | UWE Bristol"
+categories: [faces, social perception, geometric morphometrics]
+links:
+  - href: https://people.uwe.ac.uk/Person/IrisHolzleitner
+    text: Website
+---
+

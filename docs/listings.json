@@ -1,15 +1,18 @@
 [
   {
-    "listing": "/papers.html",
+    "listing": "/editors.html",
     "items": [
-      "/10.22330/he/37/036-045.html"
+      "/editors/chief/holzleitner.html",
+      "/editors/associate/hahn.html",
+      "/editors/associate/allen.html",
+      "/editors/associate/stephen.html",
+      "/editors/associate/richer.html"
     ]
   },
   {
-    "listing": "/editors.html",
+    "listing": "/articles.html",
     "items": [
-      "/editors/hahn.html",
-      "/editors/richer.html"
+      "/10.22330/he/37/036-045.html"
     ]
   }
 ]

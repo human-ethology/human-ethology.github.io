@@ -7,7 +7,17 @@
       <img src="<%- item.image %>">
       <% } %>
 
-      <h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+      <% /* %>
+        <h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+      <% */ %>
+
+        <% if (item.links) { %>
+          <% for (const link of item.links) { %>
+            <h3><a href ="<%- link.href %>"> <%- item.title %> </a></h3>
+            <% } %>
+        <% } else { %>
+          <h3><%- item.title %></h3>
+        <% } %>
 
       <p> <%= item.affiliation %> </p>
 
@@ -19,7 +29,13 @@
         </div></div>
       <% } %>
 
-
+      <% /* %>
+      <% if (item.links) { %>
+        <% for (const link of item.links) { %>
+        <p><a href ="<%- link.href %>"> <%- link.text %> </a></p>
+        <% } %>
+      <% } %>
+      <% */ %>
 
     </div>
   </li>

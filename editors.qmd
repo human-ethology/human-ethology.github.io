@@ -1,16 +1,26 @@
 ---
 title: "Editorial Board"
 listing:
-  template: templates/editors.ejs
-  contents: editors
-  date-format: iso
-  type: default
-  sort: "title"
-  categories: true
-  sort-ui: false
-  filter-ui: false
+  - id: chief
+    template: templates/editors.ejs
+    contents: editors/chief/
+  - id: editors
+    template: templates/editors.ejs
+    contents: editors/associate/
+    date-format: iso
+    type: default
+    sort: "title"
+    categories: true
+    sort-ui: false
+    filter-ui: false
 page-layout: full
 title-block-banner: false
 ---
 
+## Editor-in-Chief
+::: {#chief}
+:::
 
+## Associate Editors
+::: {#editors}
+:::

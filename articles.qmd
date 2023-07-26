@@ -1,7 +1,7 @@
 ---
-title: "Papers"
+title: "Articles"
 listing:
-  template: templates/papers.ejs
+  template: templates/articles.ejs
   contents: "10.22330"
   date-format: iso
   type: default

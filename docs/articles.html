@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Human Ethology</title>
+<title>Human Ethology - Articles</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./imgs/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -63,12 +65,43 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-doi','listing-date','listing-year','listing-volume','listing-author','listing-abstract','listing-keywords','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-doi","listing-date","listing-year","listing-volume","listing-author","listing-abstract","listing-keywords","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -89,11 +122,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles.html" rel="" target="">
+    <a class="nav-link active" href="./articles.html" rel="" target="" aria-current="page">
  <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
@@ -113,26 +146,54 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="COVID-19">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Gender">Gender <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Health behaviour">Health behaviour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Observation">Observation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Risk Taking">Risk Taking <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Articles</h1>
+</div>
 
 
 
-<section id="about-the-journal" class="level2">
-<h2 class="anchored" data-anchor-id="about-the-journal">About the Journal</h2>
-<p>Human Ethology is the official journal of <a href="https://ishe.org">The International Society for Human Ethology (ISHE)</a>. It is an online peer-reviewed journal publishing scholarly works within the broad tradition of ethology as applied to humans. Human Ethology is open-access (CC BY-NC-ND 4.0) and does not charge authors a publication fee.</p>
-<p>ISHE was founded in 1972 and was producing a newsletter for circulation to members soon thereafter. The Human Ethology Newsletter became the Human Ethology Bulletin in 1995 and started publishing peer-reviewed scholarly articles in 2012, when the journal also moved to an on-line format. The Human Ethology Bulletin was renamed Human Ethology in 2019 and continues the practice of publishing one volume per calendar year, utilising the flexibility of the on-line format to add articles as they are accepted.</p>
-<p>Ethology has close ties to many other disciplines including behavioural ecology, evolutionary biology, physical anthropology, cultural anthropology, comparative psychology, developmental psychology, evolutionary psychology and linguistics.</p>
-<p>Human Ethology publishes articles in all areas relating to the direct observation of human behaviour and that of closely related species, as well as work taking an approach consistent with Tinbergen’s four levels of explanation. Purely descriptive and inductive studies will also be considered as well as reviews, provided they are thorough and methodologically rigorous. The journal also welcomes submissions relating to the replication of earlier studies.</p>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
 
 
-</section>
 
-</main> <!-- /main -->
+
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<ul class="paperlist list">
+  <li data-index="0" data-categories="Risk Taking,Observation,Health behaviour,COVID-19,Gender" data-listing-date-sort="1667689200000" data-listing-file-modified-sort="1690363808016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/37/036-045.html">Gender differences and mask wearing: an observational study on a University campus and a mini-meta-analysis</a></h5>
+        <div class="quarto-title"><div class="quarto-categories">
+          <div class="quarto-category"><a href="papers.html#category=Risk Taking"> Risk Taking </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Observation"> Observation </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Health behaviour"> Health behaviour </a></div>
+          <div class="quarto-category"><a href="papers.html#category=COVID-19"> COVID-19 </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Gender"> Gender </a></div>
+        </div></div>
+    </div>
+  </li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

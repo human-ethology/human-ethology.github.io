@@ -1,0 +1,8 @@
+---
+title: "Caroline Allen"
+image: /imgs/allen.jpg
+affiliation: "Newcastle University"
+links:
+  - href: https://www.ncl.ac.uk/cbe/about/staff/profile/carolineallen.html#background
+    text: Website
+---

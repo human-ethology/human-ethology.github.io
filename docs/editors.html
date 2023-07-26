@@ -68,20 +68,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-chief .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-image','listing-affiliation','listing-categories','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-image','listing-affiliation','listing-categories','listing-links','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-image","listing-affiliation","listing-categories","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-image","listing-affiliation","listing-categories","listing-links","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-chief'] = new List('listing-chief', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-editors .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-image','listing-affiliation','listing-categories','listing-links','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-image","listing-affiliation","listing-categories","listing-links","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-editors'] = new List('listing-editors', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -126,8 +154,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html" rel="" target="">
- <span class="menu-text">Papers</span></a>
+    <a class="nav-link" href="./articles.html" rel="" target="">
+ <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./editors.html" rel="" target="" aria-current="page">
@@ -150,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ADHD">ADHD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="attachment">attachment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="autism">autism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="baby schema">baby schema <span class="quarto-category-count">(1)</span></div><div class="category" data-category="child behaviour">child behaviour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="consciousness">consciousness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="faces">faces <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hormones">hormones <span class="quarto-category-count">(1)</span></div><div class="category" data-category="intersubjectivity">intersubjectivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="parenting">parenting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="social perception">social perception <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ADHD">ADHD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="attachment">attachment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="autism">autism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="baby schema">baby schema <span class="quarto-category-count">(1)</span></div><div class="category" data-category="child behaviour">child behaviour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="consciousness">consciousness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="faces">faces <span class="quarto-category-count">(2)</span></div><div class="category" data-category="geometric morphometrics">geometric morphometrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hormones">hormones <span class="quarto-category-count">(1)</span></div><div class="category" data-category="intersubjectivity">intersubjectivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="parenting">parenting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="social perception">social perception <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -171,16 +199,36 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<section id="editor-in-chief" class="level2">
+<h2 class="anchored" data-anchor-id="editor-in-chief">Editor-in-Chief</h2>
+<div id="listing-chief" class="quarto-listing quarto-listing-container-custom">
 <ul class="editorlist list">
-  <li data-index="0" data-categories="baby schema,hormones,parenting,faces,social perception" data-listing-file-modified-sort="1690287139793" data-listing-reading-time-sort="1">
+  <li data-index="0" data-categories="faces,social perception,geometric morphometrics" data-listing-file-modified-sort="1690366970159" data-listing-reading-time-sort="1">
+    <div>
+      <img src="./imgs/holzleitner.jpg">
+            <h3 class="anchored"><a href="https://people.uwe.ac.uk/Person/IrisHolzleitner"> Iris J. Holzleitner </a></h3>
+      <p> University of the West of England | UWE Bristol </p>
+        <div class="quarto-title"><div class="quarto-categories">
+          <div class="quarto-category"><a href="editors.html#category=faces"> faces </a></div>
+          <div class="quarto-category"><a href="editors.html#category=social perception"> social perception </a></div>
+          <div class="quarto-category"><a href="editors.html#category=geometric morphometrics"> geometric morphometrics </a></div>
+        </div></div>
+    </div>
+  </li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="associate-editors" class="level2">
+<h2 class="anchored" data-anchor-id="associate-editors">Associate Editors</h2>
+<div id="listing-editors" class="quarto-listing quarto-listing-container-custom">
+<ul class="editorlist list">
+  <li data-index="0" data-categories="baby schema,hormones,parenting,faces,social perception" data-listing-file-modified-sort="1690360110916" data-listing-reading-time-sort="1">
     <div>
       <img src="./imgs/hahn.jpg">
-      <h3 class="anchored"><a href="./editors/hahn.html">Amanda C. Hahn</a></h3>
+            <h3 class="anchored"><a href="https://psychology.humboldt.edu/people/amanda-hahn"> Amanda C. Hahn </a></h3>
       <p> California Polytechnic Institute at Humboldt </p>
         <div class="quarto-title"><div class="quarto-categories">
           <div class="quarto-category"><a href="editors.html#category=baby schema"> baby schema </a></div>
@@ -191,10 +239,24 @@ ul.task-list li input[type="checkbox"] {
         </div></div>
     </div>
   </li>
-  <li data-index="1" data-categories="child behaviour,attachment,autism,ADHD,intersubjectivity,consciousness" data-listing-file-modified-sort="1690287136193" data-listing-reading-time-sort="1">
+  <li data-index="1" data-listing-file-modified-sort="1690360109487" data-listing-reading-time-sort="1">
+    <div>
+      <img src="./imgs/allen.jpg">
+            <h3 class="anchored"><a href="https://www.ncl.ac.uk/cbe/about/staff/profile/carolineallen.html#background"> Caroline Allen </a></h3>
+      <p> Newcastle University </p>
+    </div>
+  </li>
+  <li data-index="2" data-listing-file-modified-sort="1690360024995" data-listing-reading-time-sort="1">
+    <div>
+      <img src="./imgs/stephen.jpg">
+            <h3 class="anchored"><a href="https://www.ntu.ac.uk/staff-profiles/social-sciences/ian-stephen"> Ian D. Stephen </a></h3>
+      <p> Nottingham Trent University </p>
+    </div>
+  </li>
+  <li data-index="3" data-categories="child behaviour,attachment,autism,ADHD,intersubjectivity,consciousness" data-listing-file-modified-sort="1690361611381" data-listing-reading-time-sort="1">
     <div>
       <img src="./imgs/richer.jpg">
-      <h3 class="anchored"><a href="./editors/richer.html">John Richer</a></h3>
+            <h3 class="anchored"><a href="https://oxford.academia.edu/JohnRicher"> John Richer </a></h3>
       <p> University of Oxford </p>
         <div class="quarto-title"><div class="quarto-categories">
           <div class="quarto-category"><a href="editors.html#category=child behaviour"> child behaviour </a></div>
@@ -210,7 +272,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
