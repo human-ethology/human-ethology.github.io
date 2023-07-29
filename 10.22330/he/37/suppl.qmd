@@ -1,0 +1,9 @@
+---
+title: "Proceedings of the ISHE meeting in Würzburg, Germany, 2022"
+doi:  10.22330/he/37/suppl
+date: 2022-12-31
+year: 2022
+volume: 37
+author: ISHE
+tag: Conference Proceedings
+---

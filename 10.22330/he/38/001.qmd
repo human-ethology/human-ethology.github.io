@@ -1,0 +1,13 @@
+---
+title: "Welcome to Volume 38"
+doi:  10.22330/he/38/001
+date: 2023-04-15
+year: 2023
+volume: 38
+author: Colin Hendrie
+tag: Letter from the Editorial Board
+abstract: |
+  Welcome to Volume 38 of Human Ethology, the official journal of the International Society for Human Ethology (ISHE). The journal is in on-line format only and free to authors to publish in and for readers to read. All papers are peer reviewed and published as and when they are accepted. Authors do not need to be members of ISHE to publish in our journal and submissions are encouraged from anyone with an interest in the direct observation of human behaviour or closely related species. The journal also publishes a supplement containing abstracts of papers submitted to our meetings, which this year are being held July 22 – 25, 2023 with locations in Brazil, Czech Republic and the USA.
+  
+  Colin Hendrie, Editor
+---

@@ -1,0 +1,17 @@
+---
+title: "The Evolution of Consciousness – The Shortcomings of: The Ancient Origins of Consciousness by Todd Feinberg and Jon Mallatt, and an Alternative Approach'"
+doi:  10.22330/he/36/027-035
+date: 2021-02-04
+year: 2021
+volume: 36
+author:
+  - name: John Richer
+    affiliation:
+      - name: University of Oxford
+      - name: Oxford University Hospitals NHS Trust
+    email: johnricher@oxhs.co.uk
+    corresponding: true
+tag: Commentary
+abstract: |
+  The scientific study of consciousness is a a seductive topic given that we are a species which ascribes consciousness to each other. We communicate on the assumption others are conscious agents like ourselves. So to investigate the evolution of this phenomenon as in the book The Ancient Origins of Consciousness would seem promising. Unfortunately, despite great detail and eruditon in the discussion of evolution, the endeavour hits the same obstacles and make the same mistakes as is seen in swathes of psychology. The central error is that consciousness is treated as the same sort of publicly observable phenomenon as behaviour or brain physiology and so can be the subject of scientific study. But it isn’t and it can’t, and this paper offers an explaination why.
+---

@@ -1,0 +1,19 @@
+---
+title: "Welcome to Volume 36"
+doi:  10.22330/he/36/001-002
+date: 2021-01-18
+year: 2021
+volume: 36
+author: Colin Hendrie
+tag: Letter from the Editorial Board
+abstract: |
+  Welcome to Volume 36 of Human Ethology, the official peer-reviewed journal of the International Society for Human Ethology (ISHE). This is the third volume in the ‘new’ format where papers are published on-line, as and when they are accepted. Research articles, review articles, book reviews and a variety of other contributions including studies relating to replication issues are all welcomed. Submissions to Human Ethology are made via ScholarOne and given their own DOI link once accepted, so are easily accessed through Crossref and other indexing sites. Human Ethology is fully open access, completely free for authors to publish in and completely free for readers to read.
+  
+  The Covid-19 pandemic has of course impacted on much of our activities throughout 2020 and this is likely to continue through to 2021 even in those countries where the virus has been brought under control. Travel restrictions have meant that many face-to-face conferences were cancelled or postponed, including ISHE’s own that was due to be held in Liverpool July 2020, and new ways for scientific communities to communicate have been sought and found.
+  
+  Research too has been similarly impacted, particularly where this involves face-to-face studies, but the same sorts of workarounds can be used, at least in some cases. In my lab for example, specialist eye-tracking equipment cannot now be used because of lockdown/social distancing regulations, so these studies have been replaced with remote analysis of facial postures using manual ethological recording techniques. Useful tools in this context are Zoom, as this provides recordings in MP4 format that can be read by most media players, add-ons to programmes like VLC player that give timings to the millisecond and self- directed training in ethology, such as that outlined in Hendrie (2017) “Developing Skills” HEB 32: 15-20, published as part of the HEB 32(4) Special Issue, “Why Direct Observation?”.
+  
+  Twenty twenty-one will no doubt continue to be challenging but however you manage to do your research under these difficult circumstances, I hope you will consider submitting your papers to Human Ethology.
+  
+  Colin Hendrie, Editor
+---

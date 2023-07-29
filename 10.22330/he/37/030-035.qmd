@@ -1,0 +1,20 @@
+---
+title: "Reflections on William C. McGrew's 'Chasing after chimpanzees. The making of a primatologist'"
+doi:  10.22330/he/37/030-035
+date: 2022-10-03
+year: 2022
+volume: 37
+author:
+  - name: Wulf Schievenhövel
+    affiliation:
+      - name: Max Planck Institute for Biological Intelligence
+    email: schiefenh@yahoo.de
+    corresponding: true
+tag: Book review
+abstract: |
+  Book review of:
+    **Chasing after chimpanzees. The making of a primatologist.**
+  By William C. McGrew, 2021.
+  Mereo Books, Cirencester. UK. 298 pages.
+  ISBN 978-1-86151-582-7 (Paperback, UK £13.99, US$ 14.00)
+---

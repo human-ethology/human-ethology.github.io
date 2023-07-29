@@ -1,0 +1,42 @@
+---
+title: "Masculinized Faces are Perceived as More Dangerous but Are Not More Memorable"
+doi:  10.22330/he/37/016-029
+date: 2022-05-14
+year: 2022
+volume: 37
+author:
+  - name: Graham Albert
+    affiliation:
+      - name: Boston University
+    email: grahama@bu.edu
+    corresponding: true
+  - name: Jessica K. Hlay
+    affiliation:
+      - name: Boston University
+    corresponding: false
+  - name: Mengzi Chen
+    affiliation:
+      - name: Boston University
+    corresponding: false
+  - name: Erika Wells
+    affiliation:
+      - name: Boston University
+    corresponding: false
+  - name: Steven Arnocky
+    affiliation:
+      - name: Nipissing University
+    corresponding: false
+  - name: Chang Hong Liu
+    affiliation:
+      - name: Bournemouth University
+    corresponding: false
+  - name: Carolyn R. Hodges-Simeon
+    affiliation:
+      - name: Boston University
+    corresponding: false
+abstract: |
+  Research shows that faces manipulated to appear more masculine are perceived as more dominant; however, these experiments have relied on forced-choice paradigms, which are susceptible to demand characteristics - situational aspects of the experiment that influence subject behavior towards the expected outcome. We addressed the problems of force-choice paradigms and improved upon a previous investigation by presenting individual faces for a longer duration, and by having men and women rate presented masculinized and feminized faces on their threat potential. Forty-eight participants (25 men) completed a face rating and recognition memory task. Facial photographs were morphed by ± 75% to create masculinized and feminized versions. Participants rated 40 morphed facial photographs (masculinized = 20, feminized = 20) on how dangerous each man would be if he was provoked. To control exposure time for the recognition memory phase, participants viewed each face in the rating phase for five seconds. Following the rating phase, participants completed a recognition memory phase in which they viewed another set of 40 faces (50% new, 50% old, 50% masculinized, 50% feminized). Participants indicated whether each face was ‘old’ or ‘new’ and rated how confident they were in their classification. We predicted higher danger ratings for masculinized faces and greater sensitivity for them in the recognition memory test. In line with our predictions, both men and women assigned higher threat ratings to masculinized men’s faces; however, they did not demonstrate greater sensitivity for masculinized men’s faces or greater confidence in their ratings.
+keywords: [Dominance, Threat, Facial masculinity]
+categories: [Dominance, Threat, Facial masculinity]
+tag: Research Article
+---

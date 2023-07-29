@@ -6,8 +6,15 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Silvia Boschetti">
+<meta name="author" content="Hermann Prossinger">
+<meta name="author" content="Tomáš Hladký">
+<meta name="author" content="Kamila Machová">
+<meta name="author" content="Jakub Binter">
+<meta name="dcterms.date" content="2022-11-26">
+<meta name="keywords" content="perception, emotion, facial expression, visual stimuli, BDSM, pain and pleasure, Dirichlet distribution, Bayesian, cold pressor task">
 
-<title>Human Ethology - Amanda C. Hahn</title>
+<title>Human Ethology - “Eye can’t see the difference”: Facial Expressions of Pain, Pleasure, and Fear Are Consistently Rated Due to Chance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +30,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../imgs/favicon.ico" rel="icon">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../imgs/favicon.ico" rel="icon">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -75,10 +82,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../imgs/he_logo.jpg" alt="Stylized H and E" class="navbar-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../imgs/he_logo.jpg" alt="Stylized H and E" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Human Ethology</span>
     </a>
   </div>
@@ -89,19 +96,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
+    <a class="nav-link" href="../../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../articles.html" rel="" target="">
+    <a class="nav-link" href="../../../articles.html" rel="" target="">
  <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../authorinfo.html" rel="" target="">
+    <a class="nav-link" href="../../../authorinfo.html" rel="" target="">
  <span class="menu-text">Author Information</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../editors.html" rel="" target="">
+    <a class="nav-link" href="../../../editors.html" rel="" target="">
  <span class="menu-text">Editorial Board</span></a>
   </li>  
   <li class="nav-item">
@@ -126,25 +133,94 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Amanda C. Hahn</h1>
+<h1 class="title">“Eye can’t see the difference”: Facial Expressions of Pain, Pleasure, and Fear Are Consistently Rated Due to Chance</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">baby schema</div>
-    <div class="quarto-category">hormones</div>
-    <div class="quarto-category">parenting</div>
-    <div class="quarto-category">faces</div>
-    <div class="quarto-category">social perception</div>
+    <div class="quarto-category">perception</div>
+    <div class="quarto-category">emotion</div>
+    <div class="quarto-category">facial expression</div>
+    <div class="quarto-category">visual stimuli</div>
+    <div class="quarto-category">BDSM</div>
+    <div class="quarto-category">pain and pleasure</div>
+    <div class="quarto-category">Dirichlet distribution</div>
+    <div class="quarto-category">Bayesian</div>
+    <div class="quarto-category">cold pressor task</div>
   </div>
   </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Silvia Boschetti </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Charles University
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Hermann Prossinger </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Vienna
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Tomáš Hladký </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Charles University
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Kamila Machová </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Charles University
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Jakub Binter </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Charles University
+          </p>
+      </div>
+    </div>
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 26, 2022</p>
+    </div>
   </div>
   
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.22330/he/37/046-072">10.22330/he/37/046-072</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="abstract-title">Abstract</div>
+    <p>Our research consisted of two studies focusing on the probability of humans being able to perceive the difference between faces expressing pain versus pleasure. As controls, we included: smile, neutral facial expression, and expression of fear. The first study was conducted online and used a large sample (n = 902) of respondents. The second study was conducted in a laboratory setting and involved a stress induction procedure. For both, the task was to categorize whether the facial expression was rated positive, neutral or negative. Stimuli were faces extracted from freely downloadable online videos. Each rating participant (rater) was presented with five facial expressions (stimuli) of five females and of five males. All raters were presented with the stimuli twice so as to evaluate the consistency of the ratings. Beforehand, we tested for stimuli differences using specialized software and found decisive differences. Using a Bayesian statistical approach, we could test for consistencies and due-to-chance probabilities. The results support the prediction that the results are not repeatable but are solely due to chance, decreasing the communication value of the expressions of pain and pleasure. The expression of fear was also rated due to chance, but neither neutral nor smile. Stress induction did have an impact on the perception of pleasure.</p>
+  </div>
+</div>
 
 </header>
 

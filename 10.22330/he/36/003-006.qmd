@@ -1,0 +1,16 @@
+---
+title: "Should Human History Give Us Hope?"
+doi:  10.22330/he/36/003-006
+date: 2021-01-18
+year: 2021
+volume: 36
+author:
+  - name: Pouwel Slurink
+    email: P.Slurink@kpnplanet.nl
+    corresponding: true 
+tag: Book Review
+abstract: |
+  Book review of "Humankind, a Hopeful History" by Rutger Bregman, 2020.
+  Bloomsbury Publishing, London, UK, 496 pages. 
+  ISBN 9781408898932 (Hardback Edition, £ 14.00, Paperback Edition, £ 8.99)
+---

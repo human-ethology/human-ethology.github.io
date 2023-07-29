@@ -1,14 +1,30 @@
 ---
 title: "Articles"
 listing:
-  template: templates/articles.ejs
-  contents: "10.22330"
-  date-format: iso
-  type: default
-  sort: "year"
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: false
+  - id: vol38
+    template: templates/articles.ejs
+    contents: he/38/
+    sort: "date"
+  - id: vol37
+    template: templates/articles.ejs
+    contents: he/37/
+    sort: "date"
+  - id: vol36
+    template: templates/articles.ejs
+    contents: he/36/
+    sort: "date"
 ---
+
+## Volume 38: 2023
+::: {#vol38}
+:::
+
+## Volume 37: 2022
+::: {#vol37}
+:::
+
+## Volume 36: 2021
+ISHE were saddened to hear the news of the death this November of former president, Bill Charlesworth. Bill will be remembered by all with great fondness, not just for his first class creative science and for being a co-founder of ISHE, but for his humour and the abundant goodwill that extended to all around him. A great and lovely human being. Bill’s life and contributions were marked in a special supplement of Human Ethology in 2020, linked [here](https://ishe.org/wp-content/uploads/2020/11/HE_2020_35_Suppl.pdf).
+
+::: {#vol36}
+:::

@@ -1,0 +1,16 @@
+---
+title: "The Last Common Ancestor"
+doi:  10.22330/he/38/002-007
+date: 2023-04-15
+year: 2023
+volume: 38
+author:
+  - name: Colin Hendrie
+    affiliation:
+      - name: University of Leeds
+    email: c.a.hendrie@leeds.ac.uk
+    corresponding: true
+tag: Commentary
+abstract: |
+  Humans have no close living relatives and so it is of interest to human ethologists to try and model the characteristics of the last common ancestor (LCA) of humans and chimpanzees. This can be done by examining similarities in the behaviour of these species and also by considering their behavioural differences. This analysis indicates that the LCA was a self-aware, tool-using, hunter-gathering, hand-assisted arboreal biped. It is suggested that the human line’s most likely point of origin was in the flooded/swamp forests of what became the Congo basin following the uplifting of the East African Rift region during the mid-to-late Miocene. It is proposed that this subsidence created the conditions for the LCA line to divide based on propensity to engage with water and that this is still reflected in the behaviour of chimpanzees and humans today.
+---

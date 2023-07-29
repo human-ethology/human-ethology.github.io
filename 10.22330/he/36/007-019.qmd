@@ -1,0 +1,21 @@
+---
+title: "Will AI create a new form of life? A discussion of issues raised by 'Life 3.0: Being Human in the Age of Artificial Intelligence'"
+doi:  10.22330/he/36/007-019
+date: 2021-01-19
+year: 2021
+volume: 36
+author:
+  - name: John Richer
+    affiliation:
+      - name: University of Oxford
+      - name: Oxford University Hospitals NHS Trust
+    email: johnricher@oxhs.co.uk
+    corresponding: true
+tag: Commentary
+abstract: |
+  In this paper I discuss a number of ideas stimulated by Max Tegmark’s book, Life 3.0 . I hope they illustrate that a discussion between approaches in areas around computer science, AI and physics on the one hand, and biological thinking on the other can be fruitful. Essentially the book is strongest where AI and associated near future use are discussed. It is weakest when it moves into biological areas. But this is not a “keep off our patch” stance, but rather a desire to welcome these ideas from another intellectual approach and welcome the way they are usefully challenging.
+  
+  In his excursions into biology and consciousness and the speculation that AI might well create Life 3.0, Tegmark makes a number of errors. These include: a replicator is not clearly specified, he muddles goal directed behaviour with descriptions by function or consequence / end point, he makes some basic errors of logic including “affirming the consequent” (e.g., “if this is a dog, then it is an animal”, does NOT imply “this is an animal therefore it is a dog”), and failing to see that consciousness is ascribed not described and thereby seeing it as an entity which can be treated in the same way physical, publically observable, phenomena. Finally, he does not address the energy question: even if AI could achieve super intelligence, this silicon based system would likely consume so much energy as to be unsustainable. All this weakens his arguments.
+  
+  This is a pity because the discussion of the challenges for the near future which the development of AI poses, is valuable, interesting and useful and can stand by itself without his forays into Life 3.0.
+---

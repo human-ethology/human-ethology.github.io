@@ -1,0 +1,13 @@
+---
+title: "Welcome to Volume 37"
+doi:  10.22330/he/37/001
+date: 2022-03-25
+year: 2022
+volume: 37
+author: Colin Hendrie
+tag: Letter from the Editorial Board
+abstract: |
+  Welcome to Volume 37 of Human Ethology, the official journal of the International Society for Human Ethology (ISHE). The journal is in on-line format only and completely open access, free to read and publish in. All papers are peer reviewed and published as and when they are accepted. Authors do not need to be members of ISHE to publish in our journal and submissions are encouraged from anyone with an interest in the direct observation of human behaviour. Those who would like to know more about the application of ethology to the study of human behaviour and issues relating to this are referred to Volume 32(4) ‘Why Direct Observation?’ and are invited to attend our next congress, which is to be held in Würzburg, Germany, July 25 – 29, 2022.
+  
+  Colin Hendrie, Editor
+---

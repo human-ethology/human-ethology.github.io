@@ -1,0 +1,60 @@
+---
+title: "Author Information"
+page-layout: full
+title-block-banner: false
+---
+
+*Human Ethology* is a fully Open Access journal that does not charge authors any production fees. It is run as a continuous publication, i.e. manuscripts are published online as soon as they have finished production.
+
+Manuscripts must be submitted electronically through the [online submission portal](https://mc04.manuscriptcentral.com/ethologybulletin). Submissions to *Human Ethology* are subject to double-blind peer-review. Reviewers are asked to return their reports within 30 days.
+
+The journal subscribes to the [core principles of the Committee on Publication Ethics (COPE)](https://publicationethics.org/files/editable-bean/COPE_Core_Practices_0.pdf)
+
+Disputes, complaints and allegations of misconduct are dealt with by the Editor-in-Chief in consultation with the Board of Officers and Board of Trustees of the International Society for Human Ethology where appropriate.
+
+## Submission Guidelines
+### Submission Types
+
+#### Original Research
+##### Research Articles
+Up to ~4500 words, including references, notes and captions. Research articles are expected to present a major advance. They include an abstract, an introduction, up to six figures or tables, sections with brief subheadings, and up to a maximum of 40 references.
+
+##### Brief Reports
+Up to ~2500 words including references, notes and captions. Brief reports present important new research results of broad significance. Reports should include an abstract, an introductory paragraph, up to four figures or tables, and up to a maximum of about 30 references.
+
+Human Ethology is committed to maintaining the highest level of integrity in publication standards in the articles it publishes. To this end, research manuscripts must state as part of the *Participants* section that the relevant Ethics Committee or Institutional Review Board have provided approval for the studies described, giving the full name and affiliation of the review committee and the approval number if available. In cases where no such committee exists, authors must declare that their experimental studies were conducted in accordance with the 1964 Helsinki declaration and later amendments or comparable ethical standards.
+
+#### Theoretical Reviews
+Up to ~4500 words, including references, notes and captions. Theoretical reviews describe new developments of interdisciplinary significance and highlight future directions. They include an abstract, an introduction that outlines the main theme, brief subheadings, and an outline of important unresolved questions. A maximum of 40 references is suggested.
+
+#### Book Reviews
+Up to 2000 words including references, notes and captions. Book reviews describe, evaluate, and critique new or recent books of theoretical, empirical, or practical importance to Human Ethology and related disciplines. Book reviews can be solicited by the editors, but unsolicited submissions are also considered.
+
+### Formatting Guidelines
+All formatting should follow the APA Style Guidelines as listed in the latest edition of the APA Publication Manual. Manuscripts should have 1 inch margins, using a size 12 font.
+
+#### Front Matter
+Titles should not exceed 15 words. In order to ensure blind review, please do not include any identifying information in your submission (neither on title page nor in manuscript).
+
+Include an abstract and keywords (maximally 5), followed by a page break.
+
+#### Headers
+Level 1: Centered, boldface, upper- and lowercase headings
+
+Level 2: Left-aligned, boldface, upper- and lowercase headings
+
+Level 3: Indented, boldface, lowercase heading with a period
+
+Level 4: Indented, boldface, italicized, lowercase heading with a period
+
+#### Citing and Referencing
+For detailed instructions on APA guidelines for in-text citations and references, please see the corresponding APA guidelines:
+
+- [In-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations)
+
+- [Referencing](https://apastyle.apa.org/style-grammar-guidelines/references)
+
+Please do not abbreviate journal titles.
+
+####  Artwork, Figures, and Tables
+Artwork, including figures, tables, models, etc. should be embedded where they are referenced in the text—please do *not* append them to the end of the manuscript. Please ensure your artwork is of a resolution of at least 72 dpi.

@@ -1,0 +1,9 @@
+---
+title: "Proceedings of the ISHE Summer School, 2023"
+doi:  10.22330/he/38/suppl
+date: 2023-07-21
+year: 2023
+volume: 38
+author: ISHE
+tag: Conference Proceedings
+---

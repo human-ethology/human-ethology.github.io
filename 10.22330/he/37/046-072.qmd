@@ -1,0 +1,29 @@
+---
+title: "“Eye can’t see the difference”: Facial Expressions of Pain, Pleasure, and Fear Are Consistently Rated Due to Chance"
+doi:  10.22330/he/37/046-072
+date: 2022-11-26
+year: 2022
+volume: 37
+author:
+  - name: Silvia Boschetti
+    affiliation:
+      - name: Charles University
+  - name: Hermann Prossinger
+    affiliation:
+      - name: University of Vienna
+  - name: Tomáš Hladký
+    affiliation:
+      - name: Charles University
+  - name: Kamila Machová
+    affiliation:
+      - name: Charles University
+  - name: Jakub Binter
+    affiliation:
+      - name: Charles University
+    corresponding: true
+abstract: |
+  Our research consisted of two studies focusing on the probability of humans being able to perceive the difference between faces expressing pain versus pleasure. As controls, we included: smile, neutral facial expression, and expression of fear. The first study was conducted online and used a large sample (n = 902) of respondents. The second study was conducted in a laboratory setting and involved a stress induction procedure. For both, the task was to categorize whether the facial expression was rated positive, neutral or negative. Stimuli were faces extracted from freely downloadable online videos. Each rating participant (rater) was presented with five facial expressions (stimuli) of five females and of five males. All raters were presented with the stimuli twice so as to evaluate the consistency of the ratings. Beforehand, we tested for stimuli differences using specialized software and found decisive differences. Using a Bayesian statistical approach, we could test for consistencies and due-to-chance probabilities. The results support the prediction that the results are not repeatable but are solely due to chance, decreasing the communication value of the expressions of pain and pleasure. The expression of fear was also rated due to chance, but neither neutral nor smile. Stress induction did have an impact on the perception of pleasure.
+keywords: [perception, emotion, facial expression, visual stimuli, BDSM, pain and pleasure, Dirichlet distribution, Bayesian, cold pressor task]
+categories: [perception, emotion, facial expression, visual stimuli, BDSM, pain and pleasure, Dirichlet distribution, Bayesian, cold pressor task]
+tag: Research Article
+---

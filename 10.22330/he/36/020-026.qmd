@@ -1,0 +1,32 @@
+---
+title: "Body orientation in dyadic conversation of Russian alpinists and Special Operation Forces: Evidence for differences in in-group favoritism?"
+doi:  10.22330/he/36/020-026
+date: 2021-01-29
+year: 2021
+volume: 36
+author: 
+  - name: Yulia Apalkova
+    affiliation:
+      - name: Russian Academy of Sciences
+    email: julia.apalkova@gmail.com
+    corresponding: true
+  - name: Marina L. Butovskaya
+    affiliation:
+      - name: Russian Academy of Sciences
+      - name: Russian State University for Humanities
+    corresponding: false
+  - name:  Todd K. Shackelford
+    affiliation:
+      - name: Oakland University
+    corresponding: false
+  - name:  Bernhard Fink
+    affiliation:
+      - name: Biosocial Science Information
+      - name: University of Vienna
+    corresponding: false
+tag: Brief Report
+abstract: |
+  In-group favoritism—a preference for members of one’s group—may be evident in non-verbal behavior and may affect moral judgments. We recorded body orientation (towards vs. away from the conversation partner) in 139 dyadic conversations of male Russian alpinists (74 dyads) and members of the Special Forces (65 dyads) by scan sampling at a mountaineer base camp in Northern Caucasus (695 observations in total). In addition, we secured moral judgements from different samples of Russian alpinists (n = 65) and Special Forces (n = 61) at the same location. Special Forces more than alpinists showed body orientation towards their conversation partners and reported higher levels of loyalty and authority/respect. These findings may reflect particularly strong bonds between men involved in violent intergroup conflict, leading to in-group favoritism and related moral judgements.
+keywords: [in-group favoritism, parochialism, body orientation, moral foundations, cooperation]
+categories: [in-group favoritism, parochialism, body orientation, moral foundations, cooperation]
+---

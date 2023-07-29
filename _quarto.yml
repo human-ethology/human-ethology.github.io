@@ -13,6 +13,8 @@ website:
       - href: index.qmd
         text: Home
       - articles.qmd
+      - href: authorinfo.qmd
+        text: Author Information
       - editors.qmd
       - href: https://ishe.org
         text: ISHE website

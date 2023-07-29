@@ -68,20 +68,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-vol38 .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-doi','listing-date','listing-year','listing-volume','listing-author','listing-abstract','listing-keywords','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-doi','listing-date','listing-year','listing-volume','listing-author','listing-tag','listing-abstract','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-keywords',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-doi","listing-date","listing-year","listing-volume","listing-author","listing-abstract","listing-keywords","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-doi","listing-date","listing-year","listing-volume","listing-author","listing-tag","listing-abstract","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-keywords"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-vol38'] = new List('listing-vol38', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-vol37 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-doi','listing-date','listing-year','listing-volume','listing-author','listing-tag','listing-abstract','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-keywords','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-doi","listing-date","listing-year","listing-volume","listing-author","listing-tag","listing-abstract","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-keywords","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-vol37'] = new List('listing-vol37', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-vol36 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-doi','listing-date','listing-year','listing-volume','listing-author','listing-tag','listing-abstract','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-keywords','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-doi","listing-date","listing-year","listing-volume","listing-author","listing-tag","listing-abstract","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-keywords","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-vol36'] = new List('listing-vol36', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -101,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -130,6 +186,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./authorinfo.html" rel="" target="">
+ <span class="menu-text">Author Information</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./editors.html" rel="" target="">
  <span class="menu-text">Editorial Board</span></a>
   </li>  
@@ -146,13 +206,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="COVID-19">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Gender">Gender <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Health behaviour">Health behaviour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Observation">Observation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Risk Taking">Risk Taking <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -171,15 +230,90 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<section id="volume-38-2023" class="level2">
+<h2 class="anchored" data-anchor-id="volume-38-2023">Volume 38: 2023</h2>
+<div id="listing-vol38" class="quarto-listing quarto-listing-container-custom">
 <ul class="paperlist list">
-  <li data-index="0" data-categories="Risk Taking,Observation,Health behaviour,COVID-19,Gender" data-listing-date-sort="1667689200000" data-listing-file-modified-sort="1690363808016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  <li data-index="0" data-listing-date-sort="1681509600000" data-listing-file-modified-sort="1690637671546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/38/001.html">Welcome to Volume 38</a></h5>
+      <p>Letter from the Editorial Board</p>
+    </div>
+  </li>
+  <li data-index="1" data-listing-date-sort="1681509600000" data-listing-file-modified-sort="1690637811549" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/38/002-007.html">The Last Common Ancestor</a></h5>
+      <p>Commentary</p>
+    </div>
+  </li>
+  <li data-index="2" data-listing-date-sort="1687730400000" data-listing-file-modified-sort="1690370680284" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/38/008-016.html">A Lost Idea in Psychology: Observation as a Starting Point for the Scientific Investigation of Human Behavior</a></h5>
+      <p>Theoretical Review</p>
+    </div>
+  </li>
+  <li data-index="3" data-listing-date-sort="1689890400000" data-listing-file-modified-sort="1690637962251" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/38/suppl.html">Proceedings of the ISHE Summer School, 2023</a></h5>
+      <p>Conference Proceedings</p>
+    </div>
+  </li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="volume-37-2022" class="level2">
+<h2 class="anchored" data-anchor-id="volume-37-2022">Volume 37: 2022</h2>
+<div id="listing-vol37" class="quarto-listing quarto-listing-container-custom">
+<ul class="paperlist list">
+  <li data-index="0" data-listing-date-sort="1648162800000" data-listing-file-modified-sort="1690626039230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/37/001.html">Welcome to Volume 37</a></h5>
+      <p>Letter from the Editorial Board</p>
+    </div>
+  </li>
+  <li data-index="1" data-listing-date-sort="1650578400000" data-listing-file-modified-sort="1690637444958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/37/002-007.html">Back to Nature Revisited</a></h5>
+      <p>Commentary</p>
+    </div>
+  </li>
+  <li data-index="2" data-categories="Adaptation,Interdisciplinary,Spaceflight,Time,Isolated and Confined Environment (ICE)" data-listing-date-sort="1652392800000" data-listing-file-modified-sort="1690624356176" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/37/008-015.html">120-day simulation of a Moon mission (SIRIUS-19): context of behavioural occurences</a></h5>
+      <p>Brief Report</p>
+        <div class="quarto-title"><div class="quarto-categories">
+          <div class="quarto-category"><a href="papers.html#category=Adaptation"> Adaptation </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Interdisciplinary"> Interdisciplinary </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Spaceflight"> Spaceflight </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Time"> Time </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Isolated and Confined Environment (ICE)"> Isolated and Confined Environment (ICE) </a></div>
+        </div></div>
+    </div>
+  </li>
+  <li data-index="3" data-categories="Dominance,Threat,Facial masculinity" data-listing-date-sort="1652479200000" data-listing-file-modified-sort="1690624832529" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/37/016-029.html">Masculinized Faces are Perceived as More Dangerous but Are Not More Memorable</a></h5>
+      <p>Research Article</p>
+        <div class="quarto-title"><div class="quarto-categories">
+          <div class="quarto-category"><a href="papers.html#category=Dominance"> Dominance </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Threat"> Threat </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Facial masculinity"> Facial masculinity </a></div>
+        </div></div>
+    </div>
+  </li>
+  <li data-index="4" data-listing-date-sort="1664748000000" data-listing-file-modified-sort="1690625112329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/37/030-035.html">Reflections on William C. McGrew's 'Chasing after chimpanzees. The making of a primatologist'</a></h5>
+      <p>Book review</p>
+    </div>
+  </li>
+  <li data-index="5" data-categories="Risk Taking,Observation,Health behaviour,COVID-19,Gender" data-listing-date-sort="1667689200000" data-listing-file-modified-sort="1690368473684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
     <div>
       <h5 class="anchored"><a href="./10.22330/he/37/036-045.html">Gender differences and mask wearing: an observational study on a University campus and a mini-meta-analysis</a></h5>
+      <p>Research Article</p>
         <div class="quarto-title"><div class="quarto-categories">
           <div class="quarto-category"><a href="papers.html#category=Risk Taking"> Risk Taking </a></div>
           <div class="quarto-category"><a href="papers.html#category=Observation"> Observation </a></div>
@@ -189,11 +323,101 @@ ul.task-list li input[type="checkbox"] {
         </div></div>
     </div>
   </li>
+  <li data-index="6" data-categories="perception,emotion,facial expression,visual stimuli,BDSM,pain and pleasure,Dirichlet distribution,Bayesian,cold pressor task" data-listing-date-sort="1669417200000" data-listing-file-modified-sort="1690621727767" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/37/046-072.html">“Eye can’t see the difference”: Facial Expressions of Pain, Pleasure, and Fear Are Consistently Rated Due to Chance</a></h5>
+      <p>Research Article</p>
+        <div class="quarto-title"><div class="quarto-categories">
+          <div class="quarto-category"><a href="papers.html#category=perception"> perception </a></div>
+          <div class="quarto-category"><a href="papers.html#category=emotion"> emotion </a></div>
+          <div class="quarto-category"><a href="papers.html#category=facial expression"> facial expression </a></div>
+          <div class="quarto-category"><a href="papers.html#category=visual stimuli"> visual stimuli </a></div>
+          <div class="quarto-category"><a href="papers.html#category=BDSM"> BDSM </a></div>
+          <div class="quarto-category"><a href="papers.html#category=pain and pleasure"> pain and pleasure </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Dirichlet distribution"> Dirichlet distribution </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Bayesian"> Bayesian </a></div>
+          <div class="quarto-category"><a href="papers.html#category=cold pressor task"> cold pressor task </a></div>
+        </div></div>
+    </div>
+  </li>
+  <li data-index="7" data-listing-date-sort="1672441200000" data-listing-file-modified-sort="1690625314220" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/37/suppl.html">Proceedings of the ISHE meeting in Würzburg, Germany, 2022</a></h5>
+      <p>Conference Proceedings</p>
+    </div>
+  </li>
 </ul>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="volume-36-2021" class="level2">
+<h2 class="anchored" data-anchor-id="volume-36-2021">Volume 36: 2021</h2>
+<p>ISHE were saddened to hear the news of the death this November of former president, Bill Charlesworth. Bill will be remembered by all with great fondness, not just for his first class creative science and for being a co-founder of ISHE, but for his humour and the abundant goodwill that extended to all around him. A great and lovely human being. Bill’s life and contributions were marked in a special supplement of Human Ethology in 2020, linked <a href="https://ishe.org/wp-content/uploads/2020/11/HE_2020_35_Suppl.pdf">here</a>.</p>
+<div id="listing-vol36" class="quarto-listing quarto-listing-container-custom">
+<ul class="paperlist list">
+  <li data-index="0" data-listing-date-sort="1610924400000" data-listing-file-modified-sort="1690626161319" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/36/001-002.html">Welcome to Volume 36</a></h5>
+      <p>Letter from the Editorial Board</p>
+    </div>
+  </li>
+  <li data-index="1" data-listing-date-sort="1610924400000" data-listing-file-modified-sort="1690623790172" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/36/003-006.html">Should Human History Give Us Hope?</a></h5>
+      <p>Book Review</p>
+    </div>
+  </li>
+  <li data-index="2" data-listing-date-sort="1611010800000" data-listing-file-modified-sort="1690638450113" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/36/007-019.html">Will AI create a new form of life? A discussion of issues raised by 'Life 3.0: Being Human in the Age of Artificial Intelligence'</a></h5>
+      <p>Commentary</p>
+    </div>
+  </li>
+  <li data-index="3" data-categories="in-group favoritism,parochialism,body orientation,moral foundations,cooperation" data-listing-date-sort="1611874800000" data-listing-file-modified-sort="1690638841819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/36/020-026.html">Body orientation in dyadic conversation of Russian alpinists and Special Operation Forces: Evidence for differences in in-group favoritism?</a></h5>
+      <p>Brief Report</p>
+        <div class="quarto-title"><div class="quarto-categories">
+          <div class="quarto-category"><a href="papers.html#category=in-group favoritism"> in-group favoritism </a></div>
+          <div class="quarto-category"><a href="papers.html#category=parochialism"> parochialism </a></div>
+          <div class="quarto-category"><a href="papers.html#category=body orientation"> body orientation </a></div>
+          <div class="quarto-category"><a href="papers.html#category=moral foundations"> moral foundations </a></div>
+          <div class="quarto-category"><a href="papers.html#category=cooperation"> cooperation </a></div>
+        </div></div>
+    </div>
+  </li>
+  <li data-index="4" data-listing-date-sort="1612393200000" data-listing-file-modified-sort="1690639029970" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/36/027-035.html">The Evolution of Consciousness – The Shortcomings of: The Ancient Origins of Consciousness by Todd Feinberg and Jon Mallatt, and an Alternative Approach'</a></h5>
+      <p>Commentary</p>
+    </div>
+  </li>
+  <li data-index="5" data-categories="Adaptation,Salutogenesis,Social group,Human settlement,Isolated and Confined Environment (ICE)" data-listing-date-sort="1617141600000" data-listing-file-modified-sort="1690639293079" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    <div>
+      <h5 class="anchored"><a href="./10.22330/he/36/036-048.html">Individual diversity and temporal stability during a 4-month confinement experiment (SIRIUS-19) for human space exploration</a></h5>
+      <p>Research Article</p>
+        <div class="quarto-title"><div class="quarto-categories">
+          <div class="quarto-category"><a href="papers.html#category=Adaptation"> Adaptation </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Salutogenesis"> Salutogenesis </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Social group"> Social group </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Human settlement"> Human settlement </a></div>
+          <div class="quarto-category"><a href="papers.html#category=Isolated and Confined Environment (ICE)"> Isolated and Confined Environment (ICE) </a></div>
+        </div></div>
+    </div>
+  </li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

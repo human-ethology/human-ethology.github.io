@@ -1,0 +1,26 @@
+---
+title: "Individual diversity and temporal stability during a 4-month confinement experiment (SIRIUS-19) for human space exploration"
+doi:  10.22330/he/36/036-048
+date: 2021-03-31
+year: 2021
+volume: 36
+author: 
+  - name: Carole Tafforin
+    affiliation:
+      - name: Research and Study Group in Human and Space Ethology (Ethospace)
+    email: ethospace@orange.fr
+    corresponding: true
+  - name: Alla Vinokhodova
+    affiliation:
+      - name: Institute of Bio-Medical Problems of RAS (IBMP)
+    corresponding: false
+  - name: Vadim Gushin
+    affiliation:
+      - name: Institute of Bio-Medical Problems of RAS (IBMP)
+    corresponding: false
+tag: Research Article
+abstract: |
+  With a view to space colonization on the scale of evolution, travels to the Moon then to Mars are the near future of human exploration. New missions scenarios involve isolated and confined crews with heterogeneous composition and autonomous organization on long-duration experiences. SIRIUS-19 paradigm offered the opportunity of studying the behavioral adaptation of 6 crewmembers (3 women of Russian nationality, 1 Russian man and 2 men of American nationality) over a 133-day experiment in confinement conditions. The protocol simulated major milestones of a Moon mission for an isolation lasting 120 days. We used the ethological method based on qualitative and quantitative analyses of non-verbal and verbal behaviors from video recordings collected at breakfast time twice a month and during a group discussion once a month. The results showed differences between subjects in the frequency profiles of interactions, motions, expressions and communications on specific mission days, and a mean linear trend with no significant correlation according to time. Individual diversity with positive behavioral strategies and temporal stability with no third-quarter phenomenon are discussed. We concluded that a salutogenic adaptive step has been taken in the development of the social group.
+keywords: [Adaptation, Salutogenesis, Social group, Human settlement, Isolated and Confined Environment (ICE)]
+categories: [Adaptation, Salutogenesis, Social group, Human settlement, Isolated and Confined Environment (ICE)]
+---
